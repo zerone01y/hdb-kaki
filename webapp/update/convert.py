@@ -16,11 +16,11 @@ def convert_lease(x):
     return result
 
 
-def csv_to_parquet() -> pl.DataFrame:
+def csv_to_parquet(subdir) -> pl.DataFrame:
     """Combine all CSV files in the specified directory into a single parquet file"""
     data_dir: Path = get_project_root() / "data"
 
-    df = pl.read_csv(data_dir / "*.csv", schema=schema)
+    df = pl.read_csv(data_dir / subdir / "20*.csv", schema=schema)
 
     df = df.unique()
     df = df.with_columns(
@@ -61,7 +61,7 @@ def csv_to_parquet() -> pl.DataFrame:
     )
 
     df = df.sort(by="_ts")
-    df.write_parquet(data_dir / "df.parquet")
+    df.write_parquet(data_dir / subdir / "df.parquet")
     return
 
 
