@@ -1,0 +1,248 @@
+{
+  "d_17f5382f26140b1fdae0ba2ef6239d2f": {
+    "datasetId": "d_17f5382f26140b1fdae0ba2ef6239d2f",
+    "createdAt": "2018-07-09T15:05:27+08:00",
+    "name": "HDB Property Information",
+    "collectionIds": [
+      "150"
+    ],
+    "description": "Please approach SingPost (www.singpost.com/contact-us/service-enquiry) if you require the postal code information. Do note that there may be charges involved.",
+    "format": "CSV",
+    "lastUpdatedAt": "2026-01-15T12:12:12+08:00",
+    "managedBy": "Housing & Development Board",
+    "coverageStart": "1937-01-01T08:00:00+08:00",
+    "coverageEnd": "2025-12-31T23:59:59+08:00",
+    "contactEmails": [
+      "lim_hui_ying@hdb.gov.sg",
+      "Jasmine_JM_TAN@hdb.gov.sg"
+    ],
+    "datasetSize": 952925,
+    "columnMetadata": {
+      "order": [
+        "c_f1g5yj98gjkw8z34kz6resot8",
+        "c_vjuc0clr8jl8imu6emuugftc",
+        "c_ejco1ztin8gnvre2sxyj01zgq",
+        "c_ctm0qbnre0p7yz8dqhuxe8834",
+        "c_a55785f9klhq27fsh3kc9karm",
+        "c_60asdqhijmfswue6zh1nj655v",
+        "c_7yhxzcrbogv77wcqjtn0okfro",
+        "c_6ntrvcb5sqxffbnqjk2rce6fi",
+        "c_dvarpyifyht2uoicod107genk",
+        "c_9idym3cpx6gzyzf3fg99gamuq",
+        "c_aw6i485nyecf467nffddfe1gg",
+        "c_2z9stiehf32zxqdn0dtzh93ml",
+        "c_bhupoup5c9j644uirn9ke6dlb",
+        "c_pjmi849ubphng3uliqgxbdc6",
+        "c_f5h3j8jk3dk32igvdfebi01oo",
+        "c_8uidqvfqfr6hoeqlcnvyueg37",
+        "c_8l0cmk89tm0b29uidysh6sw3q",
+        "c_4b4h8nsxcogircpq8cjuk8iw5",
+        "c_bqxcodl2e3e49qu8ukn95ig8n",
+        "c_3grhlqpz6uzo7o9rxtzj1mn6g",
+        "c_3t28y1wfzp3hhpwfhdzdzvx7h",
+        "c_dndl2s65rqbcbuzs1c30cgmb1",
+        "c_9hcankfyh2ypzw8hyqv1jb1xn",
+        "c_e5af5lcaa25xyfin3mbstr5d5"
+      ],
+      "map": {
+        "c_f1g5yj98gjkw8z34kz6resot8": "blk_no",
+        "c_vjuc0clr8jl8imu6emuugftc": "street",
+        "c_ejco1ztin8gnvre2sxyj01zgq": "max_floor_lvl",
+        "c_ctm0qbnre0p7yz8dqhuxe8834": "year_completed",
+        "c_a55785f9klhq27fsh3kc9karm": "residential",
+        "c_60asdqhijmfswue6zh1nj655v": "commercial",
+        "c_7yhxzcrbogv77wcqjtn0okfro": "market_hawker",
+        "c_6ntrvcb5sqxffbnqjk2rce6fi": "miscellaneous",
+        "c_dvarpyifyht2uoicod107genk": "multistorey_carpark",
+        "c_9idym3cpx6gzyzf3fg99gamuq": "precinct_pavilion",
+        "c_aw6i485nyecf467nffddfe1gg": "bldg_contract_town",
+        "c_2z9stiehf32zxqdn0dtzh93ml": "total_dwelling_units",
+        "c_bhupoup5c9j644uirn9ke6dlb": "1room_sold",
+        "c_pjmi849ubphng3uliqgxbdc6": "2room_sold",
+        "c_f5h3j8jk3dk32igvdfebi01oo": "3room_sold",
+        "c_8uidqvfqfr6hoeqlcnvyueg37": "4room_sold",
+        "c_8l0cmk89tm0b29uidysh6sw3q": "5room_sold",
+        "c_4b4h8nsxcogircpq8cjuk8iw5": "exec_sold",
+        "c_bqxcodl2e3e49qu8ukn95ig8n": "multigen_sold",
+        "c_3grhlqpz6uzo7o9rxtzj1mn6g": "studio_apartment_sold",
+        "c_3t28y1wfzp3hhpwfhdzdzvx7h": "1room_rental",
+        "c_dndl2s65rqbcbuzs1c30cgmb1": "2room_rental",
+        "c_9hcankfyh2ypzw8hyqv1jb1xn": "3room_rental",
+        "c_e5af5lcaa25xyfin3mbstr5d5": "other_room_rental"
+      },
+      "metaMapping": {
+        "c_f1g5yj98gjkw8z34kz6resot8": {
+          "name": "blk_no",
+          "columnTitle": "Blk No",
+          "dataType": "Text",
+          "index": "0",
+          "isCategorical": false
+        },
+        "c_vjuc0clr8jl8imu6emuugftc": {
+          "name": "street",
+          "columnTitle": "Street",
+          "dataType": "Text",
+          "index": "1",
+          "isCategorical": true
+        },
+        "c_ejco1ztin8gnvre2sxyj01zgq": {
+          "name": "max_floor_lvl",
+          "columnTitle": "Max Floor Lvl",
+          "dataType": "Text",
+          "index": "2",
+          "isCategorical": true
+        },
+        "c_ctm0qbnre0p7yz8dqhuxe8834": {
+          "name": "year_completed",
+          "columnTitle": "Year Completed",
+          "dataType": "Text",
+          "index": "3",
+          "isCategorical": true
+        },
+        "c_a55785f9klhq27fsh3kc9karm": {
+          "name": "residential",
+          "columnTitle": "Residential",
+          "dataType": "Text",
+          "index": "4",
+          "isCategorical": true
+        },
+        "c_60asdqhijmfswue6zh1nj655v": {
+          "name": "commercial",
+          "columnTitle": "Commercial",
+          "dataType": "Text",
+          "index": "5",
+          "isCategorical": true
+        },
+        "c_7yhxzcrbogv77wcqjtn0okfro": {
+          "name": "market_hawker",
+          "columnTitle": "Market Hawker",
+          "dataType": "Text",
+          "index": "6",
+          "isCategorical": true
+        },
+        "c_6ntrvcb5sqxffbnqjk2rce6fi": {
+          "name": "miscellaneous",
+          "columnTitle": "Miscellaneous",
+          "dataType": "Text",
+          "description": "Examples include admin office, childcare centre, education centre, Residents' Committees centre",
+          "index": "7",
+          "isCategorical": true
+        },
+        "c_dvarpyifyht2uoicod107genk": {
+          "name": "multistorey_carpark",
+          "columnTitle": "Multistorey Carpark",
+          "dataType": "Text",
+          "index": "8",
+          "isCategorical": true
+        },
+        "c_9idym3cpx6gzyzf3fg99gamuq": {
+          "name": "precinct_pavilion",
+          "columnTitle": "Precinct Pavilion",
+          "dataType": "Text",
+          "index": "9",
+          "isCategorical": true
+        },
+        "c_aw6i485nyecf467nffddfe1gg": {
+          "name": "bldg_contract_town",
+          "columnTitle": "Bldg Contract Town",
+          "dataType": "Text",
+          "description": "Legend: AMK - ANG MO KIO BB - BUKIT BATOK BD - BEDOK BH - BISHAN BM - BUKIT MERAH BP - BUKIT PANJANG BT - BUKIT TIMAH CCK - CHOA CHU KANG CL - CLEMENTI CT - CENTRAL AREA GL - GEYLANG HG - HOUGANG JE - JURONG EAST JW - JURONG WEST KWN - KALLANG/WHAMPOA MP - MARINE PARADE PG - PUNGGOL PRC - PASIR RIS QT - QUEENSTOWN SB - SEMBAWANG SGN - SERANGOON SK - SENGKANG TAP - TAMPINES TG - TENGAH TP - TOA PAYOH WL - WOODLANDS YS - YISHUN",
+          "index": "10",
+          "isCategorical": true
+        },
+        "c_2z9stiehf32zxqdn0dtzh93ml": {
+          "name": "total_dwelling_units",
+          "columnTitle": "Total Dwelling Units",
+          "dataType": "Text",
+          "index": "11",
+          "isCategorical": true
+        },
+        "c_bhupoup5c9j644uirn9ke6dlb": {
+          "name": "1room_sold",
+          "columnTitle": "1room Sold",
+          "dataType": "Text",
+          "index": "12",
+          "isCategorical": true
+        },
+        "c_pjmi849ubphng3uliqgxbdc6": {
+          "name": "2room_sold",
+          "columnTitle": "2room Sold",
+          "dataType": "Text",
+          "index": "13",
+          "isCategorical": true
+        },
+        "c_f5h3j8jk3dk32igvdfebi01oo": {
+          "name": "3room_sold",
+          "columnTitle": "3room Sold",
+          "dataType": "Text",
+          "index": "14",
+          "isCategorical": true
+        },
+        "c_8uidqvfqfr6hoeqlcnvyueg37": {
+          "name": "4room_sold",
+          "columnTitle": "4room Sold",
+          "dataType": "Text",
+          "index": "15",
+          "isCategorical": true
+        },
+        "c_8l0cmk89tm0b29uidysh6sw3q": {
+          "name": "5room_sold",
+          "columnTitle": "5room Sold",
+          "dataType": "Text",
+          "index": "16",
+          "isCategorical": true
+        },
+        "c_4b4h8nsxcogircpq8cjuk8iw5": {
+          "name": "exec_sold",
+          "columnTitle": "Exec Sold",
+          "dataType": "Text",
+          "index": "17",
+          "isCategorical": true
+        },
+        "c_bqxcodl2e3e49qu8ukn95ig8n": {
+          "name": "multigen_sold",
+          "columnTitle": "Multigen Sold",
+          "dataType": "Text",
+          "index": "18",
+          "isCategorical": true
+        },
+        "c_3grhlqpz6uzo7o9rxtzj1mn6g": {
+          "name": "studio_apartment_sold",
+          "columnTitle": "Studio Apartment Sold",
+          "dataType": "Text",
+          "index": "19",
+          "isCategorical": true
+        },
+        "c_3t28y1wfzp3hhpwfhdzdzvx7h": {
+          "name": "1room_rental",
+          "columnTitle": "1room Rental",
+          "dataType": "Text",
+          "index": "20",
+          "isCategorical": true
+        },
+        "c_dndl2s65rqbcbuzs1c30cgmb1": {
+          "name": "2room_rental",
+          "columnTitle": "2room Rental",
+          "dataType": "Text",
+          "index": "21",
+          "isCategorical": true
+        },
+        "c_9hcankfyh2ypzw8hyqv1jb1xn": {
+          "name": "3room_rental",
+          "columnTitle": "3room Rental",
+          "dataType": "Text",
+          "index": "22",
+          "isCategorical": true
+        },
+        "c_e5af5lcaa25xyfin3mbstr5d5": {
+          "name": "other_room_rental",
+          "columnTitle": "Other Room Rental",
+          "dataType": "Text",
+          "index": "23",
+          "isCategorical": true
+        }
+      }
+    },
+    "lastAccessedAt": "2026-01-18T21:22:52.149787"
+  }
+}
