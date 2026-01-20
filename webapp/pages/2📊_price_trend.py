@@ -7,7 +7,7 @@ import streamlit as st
 from plotly.subplots import make_subplots
 
 from webapp.filter import SidebarFilter
-from webapp.read import load_dataframe, get_annual_new_units, get_last_updated_badge
+from webapp.read import get_annual_new_units
 from webapp.utils import pastel_colors, add_pie_slices, apply_default_theme
 
 

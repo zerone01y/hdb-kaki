@@ -82,6 +82,18 @@ def load_dataframe() -> pl.DataFrame:
     return df
 
 
+@st.cache_data
+def get_annual_new_units():
+    try:
+        data_dir = get_project_root() / "data" / "Processed Data"
+        file_path = data_dir / "annual_new_units.csv"
+        if not file_path.exists():
+            return pl.DataFrame()
+        return pl.read_csv(file_path)
+    except Exception:
+        return pl.DataFrame()
+
+
 schema = {
     "_id": pl.Int64,
     "month": pl.Utf8,
