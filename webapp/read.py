@@ -8,8 +8,8 @@ from pybadges import badge
 from webapp.utils import get_project_root
 
 
-def get_last_updated_badge():
-    data_dir = get_project_root() / "data"
+def get_last_updated_badge(subdir: str = "Resale Flat Prices"):
+    data_dir = get_project_root() / "data" / subdir
     with open(data_dir / "metadata") as file:
         content = int(file.read())
         last_updated = datetime.fromtimestamp(content)
@@ -32,19 +32,23 @@ def convert_lease(x):
     return result
 
 
-def get_dataframe_from_csv() -> pl.DataFrame:
+def get_dataframe_from_csv(
+    subdir: str = "Resale Flat Prices", file_pattern="20*.csv"
+) -> pl.DataFrame:
     """Combine all CSV files in the specified directory into a single DataFrame."""
     data_dir: Path = get_project_root() / "data"
 
-    df = pl.read_csv(data_dir / "*.csv", schema=schema)
+    df = pl.read_csv(data_dir / subdir / file_pattern, schema=schema)
     return df
 
 
-def get_dataframe_from_parquet() -> pl.DataFrame:
+def get_dataframe_from_parquet(
+    subdir: str = "Resale Flat Prices", filename="df.parquet"
+) -> pl.DataFrame:
     """Combine all CSV files in the specified directory into a single DataFrame."""
     data_dir: Path = get_project_root() / "data"
 
-    df = pl.read_parquet(data_dir / "df.parquet")
+    df = pl.read_parquet(data_dir / subdir / filename)
     return df.sort(by="town")
 
 
