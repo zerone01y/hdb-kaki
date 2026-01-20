@@ -1,0 +1,806 @@
+{
+  "d_3f172c6feb3f4f92a2f47d93eed2908a": {
+    "datasetId": "d_3f172c6feb3f4f92a2f47d93eed2908a",
+    "createdAt": "2025-11-03T20:55:30+08:00",
+    "name": "LTA Bus Stop",
+    "collectionIds": [],
+    "description": "A symbolic point representation of a pole to indicate the position where buses should stop to pickup or drop off passengers",
+    "format": "GEOJSON",
+    "lastUpdatedAt": "2026-01-06T10:06:44+08:00",
+    "managedBy": "Land Transport Authority",
+    "coverageStart": "2025-10-05T00:00:00+08:00",
+    "contactEmails": [
+      "feedback@data.gov.sg"
+    ],
+    "datasetSize": 1867114,
+    "geoJsonMetadata": {
+      "properties": [
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "OBJECTID_1",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "BUS_STOP_NUM",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "BUS_ROOF_NUM",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "UNIQUE_ID",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "INC_CRC",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "FMEL_UPD_D",
+          "description": ""
+        }
+      ]
+    },
+    "lastAccessedAt": "2026-01-18T21:22:54.490152"
+  },
+  "d_b39d3a0871985372d7e1637193335da5": {
+    "datasetId": "d_b39d3a0871985372d7e1637193335da5",
+    "createdAt": "2019-07-08T00:00:00+08:00",
+    "name": "LTA MRT Station Exit (GEOJSON)",
+    "collectionIds": [
+      "367"
+    ],
+    "description": "The layer contains the locations of MRT station exits.",
+    "format": "GEOJSON",
+    "lastUpdatedAt": "2026-01-06T10:06:57+08:00",
+    "managedBy": "Land Transport Authority",
+    "coverageStart": "2025-08-18T00:00:00+08:00",
+    "contactEmails": [
+      "feedback@data.gov.sg"
+    ],
+    "datasetSize": 207783,
+    "geoJsonMetadata": {
+      "properties": [
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "OBJECTID",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "STATION_NA",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "EXIT_CODE",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "INC_CRC",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "FMEL_UPD_D",
+          "description": ""
+        }
+      ]
+    },
+    "lastAccessedAt": "2026-01-18T21:22:55.191152"
+  },
+  "d_0542d48f0991541706b58059381a6eca": {
+    "datasetId": "d_0542d48f0991541706b58059381a6eca",
+    "createdAt": "2023-07-31T16:13:28+08:00",
+    "name": "Parks",
+    "collectionIds": [
+      "1491"
+    ],
+    "description": "The points in this layer represents the indicative Managed Areas of Parks which are under the purview of NParks.",
+    "format": "GEOJSON",
+    "lastUpdatedAt": "2026-01-18T10:06:51+08:00",
+    "managedBy": "National Parks Board",
+    "coverageStart": "2025-11-07T00:00:00+08:00",
+    "contactEmails": [
+      "kellie_tan@nparks.gov.sg"
+    ],
+    "datasetSize": 162657,
+    "geoJsonMetadata": {
+      "properties": [
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "OBJECTID",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "NAME",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "X",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "Y",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "INC_CRC",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "FMEL_UPD_D",
+          "description": ""
+        }
+      ]
+    },
+    "lastAccessedAt": "2026-01-18T21:22:56.114202"
+  },
+  "d_4a086da0a5553be1d89383cd90d07ecd": {
+    "datasetId": "d_4a086da0a5553be1d89383cd90d07ecd",
+    "createdAt": "2019-01-16T00:00:00+08:00",
+    "name": "Hawker Centres (GEOJSON)",
+    "collectionIds": [
+      "1445"
+    ],
+    "description": "Location of hawker centres.",
+    "format": "GEOJSON",
+    "lastUpdatedAt": "2026-01-18T10:06:44+08:00",
+    "managedBy": "National Environment Agency",
+    "coverageStart": "2025-11-07T00:00:00+08:00",
+    "contactEmails": [
+      "feedback@data.gov.sg"
+    ],
+    "datasetSize": 140459,
+    "geoJsonMetadata": {
+      "properties": [
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "OBJECTID",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "LANDXADDRESSPOINT",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "LANDYADDRESSPOINT",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "ADDRESSBUILDINGNAME",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "ADDRESSPOSTALCODE",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "ADDRESSSTREETNAME",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "DESCRIPTION",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "NAME",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "PHOTOURL",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "ADDRESSBLOCKHOUSENUMBER",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "STATUS",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "AWARDED_DATE",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "IMPLEMENTATION_DATE",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "INFO_ON_CO_LOCATORS",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "ADDRESS_MYENV",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "EST_ORIGINAL_COMPLETION_DATE",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "HUP_COMPLETION_DATE",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "NUMBER_OF_COOKED_FOOD_STALLS",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "INC_CRC",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "FMEL_UPD_D",
+          "description": ""
+        }
+      ]
+    },
+    "lastAccessedAt": "2026-01-18T21:22:56.721285"
+  },
+  "d_688b934f82c1059ed0a6993d2a829089": {
+    "datasetId": "d_688b934f82c1059ed0a6993d2a829089",
+    "createdAt": "2017-05-29T19:03:04+08:00",
+    "name": "General information of schools",
+    "collectionIds": [
+      "457"
+    ],
+    "description": "List general information such as address, contact details, nearest public transportation of primary, secondary and pre-university schools.",
+    "format": "CSV",
+    "lastUpdatedAt": "2025-11-05T16:34:10+08:00",
+    "managedBy": "Ministry of Education",
+    "coverageStart": "2025-09-01T00:00:00+08:00",
+    "coverageEnd": "2025-12-31T23:59:59+08:00",
+    "contactEmails": [
+      "mabel_lee@moe.gov.sg"
+    ],
+    "datasetSize": 134454,
+    "columnMetadata": {
+      "order": [
+        "c_3xo8hrwwuxtlgrz91ov67fijq",
+        "c_56wksvgbkgqg7kznvp89ei6t9",
+        "c_4z3mbe63ejbua6t8zmkh23y0v",
+        "c_69p9zv2x4gsiomjbbqzcn6cpa",
+        "c_6p05a51sm4d9zaulsipe4ykqw",
+        "c_8gnyo4fnkj517i3tg7w8kqwwu",
+        "c_8bufzbhvjq338rrxu6p5f1bue",
+        "c_2gzb9kyl7yygd7l38pu37nxoa",
+        "c_553zytjkujmo98xknzkwaf9w3",
+        "c_cggo875g0047jaenztm4nozh0",
+        "c_39glg62wchn7e4eomxbwyflzk",
+        "c_al2p0j2sirfnxr7lb5797fkmw",
+        "c_b5uk1k91pxnjdicnwzm4m38gk",
+        "c_1g6s06b7swjxtzxl1a572tze1",
+        "c_bz6rcnd67du7qipi8yvj9mpri",
+        "c_aydpm0gcx30ylt9cfdn7z35rt",
+        "c_5khfhjrr3xmqn5pew7ddezdzk",
+        "c_de354h6k5pack223zc761i8yy",
+        "c_1rrwh03nukl1kp0lx591jmteq",
+        "c_7ndafyhnuo0thbnnmd7za60tx",
+        "c_afeqqj0orrjlkx4pufdyns1a3",
+        "c_1n4uphs9kiy0ok8wqf3qhurmi",
+        "c_ea51oxi1jvtw0zrkfen39ta8y",
+        "c_dydls7l3cf8i25a28f4akrzrr",
+        "c_7wijqtipzg97kc6jyapnquee4",
+        "c_74r2w8sxa5kat1dojteb5omx7",
+        "c_bhs5p0x6dcdiwpsp05s4p48pm",
+        "c_46hpmuptg43iecokreyicqwj6",
+        "c_1qff9tmbucj90hrs1j08ixqq7",
+        "c_6q15e134u9pwsivrao703vvl4",
+        "c_46wos7zgyp1wlcy3z010254ge"
+      ],
+      "map": {
+        "c_3xo8hrwwuxtlgrz91ov67fijq": "school_name",
+        "c_56wksvgbkgqg7kznvp89ei6t9": "url_address",
+        "c_4z3mbe63ejbua6t8zmkh23y0v": "address",
+        "c_69p9zv2x4gsiomjbbqzcn6cpa": "postal_code",
+        "c_6p05a51sm4d9zaulsipe4ykqw": "telephone_no",
+        "c_8gnyo4fnkj517i3tg7w8kqwwu": "telephone_no_2",
+        "c_8bufzbhvjq338rrxu6p5f1bue": "fax_no",
+        "c_2gzb9kyl7yygd7l38pu37nxoa": "fax_no_2",
+        "c_553zytjkujmo98xknzkwaf9w3": "email_address",
+        "c_cggo875g0047jaenztm4nozh0": "mrt_desc",
+        "c_39glg62wchn7e4eomxbwyflzk": "bus_desc",
+        "c_al2p0j2sirfnxr7lb5797fkmw": "principal_name",
+        "c_b5uk1k91pxnjdicnwzm4m38gk": "first_vp_name",
+        "c_1g6s06b7swjxtzxl1a572tze1": "second_vp_name",
+        "c_bz6rcnd67du7qipi8yvj9mpri": "third_vp_name",
+        "c_aydpm0gcx30ylt9cfdn7z35rt": "fourth_vp_name",
+        "c_5khfhjrr3xmqn5pew7ddezdzk": "fifth_vp_name",
+        "c_de354h6k5pack223zc761i8yy": "sixth_vp_name",
+        "c_1rrwh03nukl1kp0lx591jmteq": "dgp_code",
+        "c_7ndafyhnuo0thbnnmd7za60tx": "zone_code",
+        "c_afeqqj0orrjlkx4pufdyns1a3": "type_code",
+        "c_1n4uphs9kiy0ok8wqf3qhurmi": "nature_code",
+        "c_ea51oxi1jvtw0zrkfen39ta8y": "session_code",
+        "c_dydls7l3cf8i25a28f4akrzrr": "mainlevel_code",
+        "c_7wijqtipzg97kc6jyapnquee4": "sap_ind",
+        "c_74r2w8sxa5kat1dojteb5omx7": "autonomous_ind",
+        "c_bhs5p0x6dcdiwpsp05s4p48pm": "gifted_ind",
+        "c_46hpmuptg43iecokreyicqwj6": "ip_ind",
+        "c_1qff9tmbucj90hrs1j08ixqq7": "mothertongue1_code",
+        "c_6q15e134u9pwsivrao703vvl4": "mothertongue2_code",
+        "c_46wos7zgyp1wlcy3z010254ge": "mothertongue3_code"
+      },
+      "metaMapping": {
+        "c_3xo8hrwwuxtlgrz91ov67fijq": {
+          "name": "school_name",
+          "columnTitle": "School Name",
+          "dataType": "Text",
+          "index": "0",
+          "isCategorical": false
+        },
+        "c_56wksvgbkgqg7kznvp89ei6t9": {
+          "name": "url_address",
+          "columnTitle": "Url Address",
+          "dataType": "Text",
+          "index": "1",
+          "isCategorical": false
+        },
+        "c_4z3mbe63ejbua6t8zmkh23y0v": {
+          "name": "address",
+          "columnTitle": "Address",
+          "dataType": "Text",
+          "index": "2",
+          "isCategorical": false
+        },
+        "c_69p9zv2x4gsiomjbbqzcn6cpa": {
+          "name": "postal_code",
+          "columnTitle": "Postal Code",
+          "dataType": "Text",
+          "index": "3",
+          "isCategorical": false
+        },
+        "c_6p05a51sm4d9zaulsipe4ykqw": {
+          "name": "telephone_no",
+          "columnTitle": "Telephone No",
+          "dataType": "Text",
+          "index": "4",
+          "isCategorical": false
+        },
+        "c_8gnyo4fnkj517i3tg7w8kqwwu": {
+          "name": "telephone_no_2",
+          "columnTitle": "Telephone No 2",
+          "dataType": "Text",
+          "index": "5",
+          "isCategorical": true
+        },
+        "c_8bufzbhvjq338rrxu6p5f1bue": {
+          "name": "fax_no",
+          "columnTitle": "Fax No",
+          "dataType": "Text",
+          "index": "6",
+          "isCategorical": false
+        },
+        "c_2gzb9kyl7yygd7l38pu37nxoa": {
+          "name": "fax_no_2",
+          "columnTitle": "Fax No 2",
+          "dataType": "Text",
+          "index": "7",
+          "isCategorical": true
+        },
+        "c_553zytjkujmo98xknzkwaf9w3": {
+          "name": "email_address",
+          "columnTitle": "Email Address",
+          "dataType": "Text (Email)",
+          "index": "8",
+          "isCategorical": false
+        },
+        "c_cggo875g0047jaenztm4nozh0": {
+          "name": "mrt_desc",
+          "columnTitle": "Mrt Desc",
+          "dataType": "Text",
+          "index": "9",
+          "isCategorical": false
+        },
+        "c_39glg62wchn7e4eomxbwyflzk": {
+          "name": "bus_desc",
+          "columnTitle": "Bus Desc",
+          "dataType": "Text",
+          "index": "10",
+          "isCategorical": false
+        },
+        "c_al2p0j2sirfnxr7lb5797fkmw": {
+          "name": "principal_name",
+          "columnTitle": "Principal Name",
+          "dataType": "Text",
+          "index": "11",
+          "isCategorical": false
+        },
+        "c_b5uk1k91pxnjdicnwzm4m38gk": {
+          "name": "first_vp_name",
+          "columnTitle": "First Vp Name",
+          "dataType": "Text",
+          "index": "12",
+          "isCategorical": false
+        },
+        "c_1g6s06b7swjxtzxl1a572tze1": {
+          "name": "second_vp_name",
+          "columnTitle": "Second Vp Name",
+          "dataType": "Text",
+          "index": "13",
+          "isCategorical": false
+        },
+        "c_bz6rcnd67du7qipi8yvj9mpri": {
+          "name": "third_vp_name",
+          "columnTitle": "Third Vp Name",
+          "dataType": "Text",
+          "index": "14",
+          "isCategorical": false
+        },
+        "c_aydpm0gcx30ylt9cfdn7z35rt": {
+          "name": "fourth_vp_name",
+          "columnTitle": "Fourth Vp Name",
+          "dataType": "Text",
+          "index": "15",
+          "isCategorical": true
+        },
+        "c_5khfhjrr3xmqn5pew7ddezdzk": {
+          "name": "fifth_vp_name",
+          "columnTitle": "Fifth Vp Name",
+          "dataType": "Text",
+          "index": "16",
+          "isCategorical": true
+        },
+        "c_de354h6k5pack223zc761i8yy": {
+          "name": "sixth_vp_name",
+          "columnTitle": "Sixth Vp Name",
+          "dataType": "Text",
+          "index": "17",
+          "isCategorical": true
+        },
+        "c_1rrwh03nukl1kp0lx591jmteq": {
+          "name": "dgp_code",
+          "columnTitle": "Dgp Code",
+          "dataType": "Text",
+          "index": "18",
+          "isCategorical": true
+        },
+        "c_7ndafyhnuo0thbnnmd7za60tx": {
+          "name": "zone_code",
+          "columnTitle": "Zone Code",
+          "dataType": "Text",
+          "index": "19",
+          "isCategorical": true
+        },
+        "c_afeqqj0orrjlkx4pufdyns1a3": {
+          "name": "type_code",
+          "columnTitle": "Type Code",
+          "dataType": "Text",
+          "index": "20",
+          "isCategorical": true
+        },
+        "c_1n4uphs9kiy0ok8wqf3qhurmi": {
+          "name": "nature_code",
+          "columnTitle": "Nature Code",
+          "dataType": "Text",
+          "index": "21",
+          "isCategorical": true
+        },
+        "c_ea51oxi1jvtw0zrkfen39ta8y": {
+          "name": "session_code",
+          "columnTitle": "Session Code",
+          "dataType": "Text",
+          "index": "22",
+          "isCategorical": true
+        },
+        "c_dydls7l3cf8i25a28f4akrzrr": {
+          "name": "mainlevel_code",
+          "columnTitle": "Mainlevel Code",
+          "dataType": "Text",
+          "index": "23",
+          "isCategorical": true
+        },
+        "c_7wijqtipzg97kc6jyapnquee4": {
+          "name": "sap_ind",
+          "columnTitle": "Sap Ind",
+          "dataType": "Text",
+          "index": "24",
+          "isCategorical": true
+        },
+        "c_74r2w8sxa5kat1dojteb5omx7": {
+          "name": "autonomous_ind",
+          "columnTitle": "Autonomous Ind",
+          "dataType": "Text",
+          "index": "25",
+          "isCategorical": true
+        },
+        "c_bhs5p0x6dcdiwpsp05s4p48pm": {
+          "name": "gifted_ind",
+          "columnTitle": "Gifted Ind",
+          "dataType": "Text",
+          "index": "26",
+          "isCategorical": true
+        },
+        "c_46hpmuptg43iecokreyicqwj6": {
+          "name": "ip_ind",
+          "columnTitle": "Ip Ind",
+          "dataType": "Text",
+          "index": "27",
+          "isCategorical": true
+        },
+        "c_1qff9tmbucj90hrs1j08ixqq7": {
+          "name": "mothertongue1_code",
+          "columnTitle": "Mothertongue1 Code",
+          "dataType": "Text",
+          "index": "28",
+          "isCategorical": true
+        },
+        "c_6q15e134u9pwsivrao703vvl4": {
+          "name": "mothertongue2_code",
+          "columnTitle": "Mothertongue2 Code",
+          "dataType": "Text",
+          "index": "29",
+          "isCategorical": true
+        },
+        "c_46wos7zgyp1wlcy3z010254ge": {
+          "name": "mothertongue3_code",
+          "columnTitle": "Mothertongue3 Code",
+          "dataType": "Text",
+          "index": "30",
+          "isCategorical": true
+        }
+      }
+    },
+    "lastAccessedAt": "2026-01-18T21:22:57.355502"
+  },
+  "d_8d886e3a83934d7447acdf5bc6959999": {
+    "datasetId": "d_8d886e3a83934d7447acdf5bc6959999",
+    "createdAt": "2019-12-09T00:00:00+08:00",
+    "name": "Master Plan 2019 Rail Station layer (GEOJSON)",
+    "collectionIds": [
+      "1715"
+    ],
+    "description": "Indicative MRT and LRT station outline layer. This layer is extracted from the Master Plan 2019 that was approved on 18 Nov 2019. For the latest Master Plan, please visit URA web site at https://www.ura.gov.sg/",
+    "format": "GEOJSON",
+    "lastUpdatedAt": "2025-12-05T10:07:04+08:00",
+    "managedBy": "Urban Redevelopment Authority",
+    "coverageStart": "2019-12-09T00:00:00+08:00",
+    "datasetSize": 784676,
+    "geoJsonMetadata": {
+      "properties": [
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "OBJECTID",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "GRND_LEVEL",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "RAIL_TYPE",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "NAME",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "INC_CRC",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "FMEL_UPD_D",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "SHAPE.AREA",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Numeric",
+            "value": "NUMERIC"
+          },
+          "attribute": "SHAPE.LEN",
+          "description": ""
+        }
+      ]
+    },
+    "lastAccessedAt": "2026-01-18T21:22:58.125753"
+  },
+  "d_cac2c32f01960a3ad7202a99c27268a0": {
+    "datasetId": "d_cac2c32f01960a3ad7202a99c27268a0",
+    "createdAt": "2019-01-24T00:00:00+08:00",
+    "name": "Supermarkets (GEOJSON)",
+    "collectionIds": [
+      "1451"
+    ],
+    "format": "GEOJSON",
+    "lastUpdatedAt": "2024-06-06T15:00:05+08:00",
+    "managedBy": "Singapore Food Agency",
+    "datasetSize": 437568,
+    "geoJsonMetadata": {
+      "properties": [
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "Name",
+          "description": ""
+        },
+        {
+          "dataType": {
+            "label": "Text",
+            "value": "TEXT"
+          },
+          "attribute": "Description",
+          "description": ""
+        }
+      ]
+    },
+    "lastAccessedAt": "2026-01-18T21:22:58.777780"
+  }
+}
