@@ -242,6 +242,7 @@ def plot_lease_years(sf: SidebarFilter, metric, annotations: dict):
         cols=2,
         specs=[[{"type": "xy"}, {"type": "domain"}]],
         column_widths=[0.75, 0.25],
+        horizontal_spacing=0.1,
     )
     for tr in base_line.data:
         tr.update(legendgroup=str(tr.name))
@@ -250,8 +251,11 @@ def plot_lease_years(sf: SidebarFilter, metric, annotations: dict):
         hovermode="x unified",
         xaxis_tickformat="%Y-%m",
         legend_title_text="Remaining Lease Years",
+        xaxis_title="Quarter",
         **annotations,
     )
+    fig.update_yaxes(title_text=y_label)
+
     pie_df = (
         chart_df.group_by("cat_remaining_lease_years")
         .agg(pl.col("transaction_volume").sum().alias("volume"))
@@ -259,6 +263,7 @@ def plot_lease_years(sf: SidebarFilter, metric, annotations: dict):
     )
     lease_labels = pie_df["cat_remaining_lease_years"]
     lease_values = pie_df["volume"]
+
     color_map = {str(tr.name): tr.line.color for tr in base_line.data}
     add_pie_slices(
         fig,
@@ -273,6 +278,7 @@ def plot_lease_years(sf: SidebarFilter, metric, annotations: dict):
 
     fig.update_layout(
         title=title,
+        xaxis_title="Quarter",
         legend=dict(
             orientation="v",
             yanchor="top",
@@ -406,6 +412,7 @@ def plot_town(sf: SidebarFilter, metric, annotations: dict):
         cols=2,
         specs=[[{"secondary_y": True}, {"type": "domain"}]],
         column_widths=[0.8, 0.2],
+        horizontal_spacing=0.1,
     )
     for town in chart_df["town"].unique().sort():
         town_df = chart_df.filter(pl.col("town") == town)
@@ -443,6 +450,11 @@ def plot_town(sf: SidebarFilter, metric, annotations: dict):
 
     fig.update_xaxes(tickformat="%Y-%m", row=1, col=1)
     fig.update_yaxes(
+        title_text=y_label,
+        secondary_y=False,
+    )
+
+    fig.update_yaxes(
         showgrid=False, zeroline=False, secondary_y=True, showticklabels=False
     )
 
@@ -463,6 +475,7 @@ def plot_town(sf: SidebarFilter, metric, annotations: dict):
     fig.update_layout(
         title=title,
         yaxis_title=y_label,
+        xaxis_title="Quarter",
         hovermode="x unified",
         barmode="stack",
         **custom_layout,
@@ -473,9 +486,16 @@ def plot_town(sf: SidebarFilter, metric, annotations: dict):
 
     fig.update_layout(
         hovermode="x unified",
-        legend=dict(orientation="h", y=-0.35, x=0.5, xanchor="center", yanchor="top"),
+        legend=dict(
+            orientation="h",
+            y=0,
+            x=0.5,
+            xanchor="center",
+            yanchor="bottom",
+            yref="container",
+        ),
         margin=dict(l=50, r=50, t=100, b=150),
-        height=annotations["height"],
+        height=600,
     )
 
     pie_df = (
@@ -494,10 +514,6 @@ def plot_town(sf: SidebarFilter, metric, annotations: dict):
         row=1,
         col=2,
         pie_title="Transaction<br>Volume",
-    )
-
-    fig.update_layout(
-        title=title,
     )
     st.plotly_chart(fig, width="stretch")
 
@@ -543,6 +559,7 @@ def plot_flat_type(sf: SidebarFilter, metric):
         cols=2,
         specs=[[{"type": "xy"}, {"type": "domain"}]],
         column_widths=[0.75, 0.25],
+        horizontal_spacing=0.1,
     )
     colors = px.colors.qualitative.Plotly
     chart_df = get_flat_type_data(sf.df)
@@ -617,6 +634,7 @@ def plot_flat_type(sf: SidebarFilter, metric):
         col=2,
         pie_title="",
     )
+    apply_default_theme(fig)
 
     st.plotly_chart(fig, width="stretch")
 
@@ -666,7 +684,7 @@ sf = SidebarFilter(
 with tab1:
     from webapp.read import get_last_updated_badge
 
-    st.subheader("Overview")
+    # st.subheader("Overview")
     plot_median_resale(sf, metric, annotations)
     st.markdown("### Recent transactions")
     df_to_show = sf.df.select(
