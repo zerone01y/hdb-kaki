@@ -15,7 +15,7 @@ def main():
     st.markdown("## Welcome to HDB Kaki")
 
     st.markdown(
-"""
+        """
 HDB Kaki helps you stay updated on the latest movements in the HDB resale market.
 
 It enables users to examine price trends by:
@@ -37,7 +37,12 @@ if __name__ == "__main__":
     pages = {
         "Analysis": [
             st.Page(main, title="HDB Kaki", icon="🔑"),
-            st.Page("pages/2📊_price_trend.py", title="Resale Trends", icon="📈"),
+            st.Page("pages/1📊_price_trend.py", title="Resale Trends", icon="📈"),
+            st.Page(
+                "pages/2🗺️_heatmap.py",
+                title="HDB Resale Price Heatmap",
+                icon="🗺️",
+            ),
         ],
     }
 
